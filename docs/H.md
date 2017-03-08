@@ -72,10 +72,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>HKL</td><td>HKR</td><td>5550</td><td>324</td></tr>
 
-<tr><td>D=1</td><td>HS</td><td>IS</td><td>35918</td><td>10936</td></tr>
-
-<tr><td>D=1</td><td>HS</td><td>Hs</td><td>35918</td><td>270</td></tr>
-
 <tr><td>D=2</td><td>HTML</td><td>XML</td><td>7224</td><td>3000</td></tr>
 
 <tr><td>D=2</td><td>HTML</td><td>SGML</td><td>7224</td><td>397</td></tr>
@@ -707,6 +703,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

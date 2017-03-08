@@ -32,8 +32,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>IBM</td><td>IBMn</td><td>11862</td><td>56</td></tr>
 
-<tr><td>D=1</td><td>II</td><td>IIA</td><td>137947</td><td>178</td></tr>
-
 <tr><td>D=1</td><td>II-</td><td>III-</td><td>907</td><td>331</td></tr>
 
 <tr><td>D=1</td><td>II-</td><td>III-</td><td>907</td><td>331</td></tr>
@@ -57,10 +55,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>IRWIN</td><td>ROBIN</td><td>38</td><td>117</td></tr>
 
 <tr><td>D=2</td><td>ISBN</td><td>ISSN:</td><td>14062</td><td>131</td></tr>
-
-<tr><td>D=1</td><td>IT</td><td>ICT</td><td>17834</td><td>6454</td></tr>
-
-<tr><td>D=1</td><td>IT</td><td>ICT</td><td>17834</td><td>6454</td></tr>
 
 <tr><td>D=2</td><td>Iberian</td><td>Istrian</td><td>2309</td><td>402</td></tr>
 
@@ -381,6 +375,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

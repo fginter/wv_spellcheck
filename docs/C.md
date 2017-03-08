@@ -18,18 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>C</td><td>Cl</td><td>85586</td><td>296</td></tr>
-
-<tr><td>D=1</td><td>C</td><td>Cr</td><td>85586</td><td>233</td></tr>
-
-<tr><td>D=1</td><td>C</td><td>Cn</td><td>85586</td><td>63</td></tr>
-
-<tr><td>D=1</td><td>CD</td><td>BD</td><td>18668</td><td>2834</td></tr>
-
-<tr><td>D=1</td><td>CD</td><td>BD</td><td>18668</td><td>2834</td></tr>
-
-<tr><td>D=1</td><td>CD</td><td>CDR</td><td>18668</td><td>262</td></tr>
-
 <tr><td>D=1</td><td>COD</td><td>CoD</td><td>551</td><td>1158</td></tr>
 
 <tr><td>D=2</td><td>CRASH</td><td>COAST</td><td>70</td><td>77</td></tr>
@@ -83,8 +71,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>Caroline</td><td>Carlene</td><td>5585</td><td>135</td></tr>
 
 <tr><td>D=2</td><td>Carolinen</td><td>Charlenen</td><td>1231</td><td>140</td></tr>
-
-<tr><td>D=1</td><td>Cd</td><td>Cr</td><td>542</td><td>233</td></tr>
 
 <tr><td>D=1</td><td>Centro</td><td>centro</td><td>2320</td><td>189</td></tr>
 
@@ -157,6 +143,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

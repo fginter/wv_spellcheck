@@ -18,14 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>e</td><td>€</td><td>125544</td><td>209970</td></tr>
-
-<tr><td>D=1</td><td>e</td><td></td><td>125544</td><td>25736</td></tr>
-
-<tr><td>D=1</td><td>e</td><td>ea</td><td>125544</td><td>527</td></tr>
-
-<tr><td>D=1</td><td>e</td><td>³</td><td>125544</td><td>691</td></tr>
-
 <tr><td>D=1</td><td>e-kirja</td><td>ekirja</td><td>2953</td><td>61</td></tr>
 
 <tr><td>D=2</td><td>e-kirja</td><td>eKirja</td><td>2953</td><td>665</td></tr>
@@ -601,10 +593,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>ehtooseen</td><td>ehtoosen</td><td>202</td><td>274</td></tr>
 
 <tr><td>D=1</td><td>ehtooseen</td><td>ehtoosen</td><td>202</td><td>274</td></tr>
-
-<tr><td>D=1</td><td>ei</td><td>eí</td><td>26838938</td><td>85</td></tr>
-
-<tr><td>D=1</td><td>ei</td><td>eiu</td><td>26838938</td><td>62</td></tr>
 
 <tr><td>D=1</td><td>ei-kansalaisten</td><td>eu-kansalaisten</td><td>69</td><td>12</td></tr>
 
@@ -4369,6 +4357,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

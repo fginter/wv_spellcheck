@@ -18,17 +18,11 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>F</td><td>ρ</td><td>40496</td><td>95</td></tr>
-
 <tr><td>D=1</td><td>FIA</td><td>FAI</td><td>2206</td><td>367</td></tr>
 
 <tr><td>D=2</td><td>FLEX</td><td>BLUE</td><td>210</td><td>883</td></tr>
 
 <tr><td>D=2</td><td>FORD</td><td>DORE</td><td>1743</td><td>96</td></tr>
-
-<tr><td>D=1</td><td>FR</td><td>RO</td><td>5060</td><td>1799</td></tr>
-
-<tr><td>D=1</td><td>FR</td><td>RO</td><td>5060</td><td>1799</td></tr>
 
 <tr><td>D=2</td><td>Fanny</td><td>Zanna</td><td>6456</td><td>79</td></tr>
 
@@ -261,6 +255,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

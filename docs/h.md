@@ -18,17 +18,9 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>h-</td><td>-n</td><td>136</td><td>521</td></tr>
-
 <tr><td>D=2</td><td>h-juna</td><td>IC-juna</td><td>1</td><td>172</td></tr>
 
 <tr><td>D=2</td><td>h-juna</td><td>IC-juna</td><td>1</td><td>172</td></tr>
-
-<tr><td>D=1</td><td>ha</td><td>hl</td><td>22275</td><td>258</td></tr>
-
-<tr><td>D=1</td><td>ha</td><td>hl</td><td>22275</td><td>258</td></tr>
-
-<tr><td>D=1</td><td>ha</td><td>gha</td><td>22275</td><td>76</td></tr>
 
 <tr><td>D=1</td><td>haa</td><td>haaa</td><td>2808</td><td>152</td></tr>
 
@@ -2868,8 +2860,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>hevosten</td><td>heposten</td><td>47136</td><td>112</td></tr>
 
-<tr><td>D=1</td><td>hi</td><td>thi</td><td>2267</td><td>55</td></tr>
-
 <tr><td>D=2</td><td>hi-tech</td><td>high-tech</td><td>605</td><td>686</td></tr>
 
 <tr><td>D=2</td><td>hi-tech</td><td>high-tech</td><td>605</td><td>686</td></tr>
@@ -3663,14 +3653,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>hivutti</td><td>liutti</td><td>566</td><td>131</td></tr>
 
 <tr><td>D=2</td><td>hivutus</td><td>hatutus</td><td>84</td><td>69</td></tr>
-
-<tr><td>D=1</td><td>hm</td><td>hmm</td><td>3028</td><td>10083</td></tr>
-
-<tr><td>D=1</td><td>hm</td><td>Eh</td><td>3028</td><td>5586</td></tr>
-
-<tr><td>D=1</td><td>hm</td><td>Öh</td><td>3028</td><td>5483</td></tr>
-
-<tr><td>D=1</td><td>hm</td><td>öh</td><td>3028</td><td>4329</td></tr>
 
 <tr><td>D=2</td><td>hoes</td><td>boys</td><td>25</td><td>2039</td></tr>
 
@@ -5562,8 +5544,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>hyöytä</td><td>hyotyä</td><td>130</td><td>47</td></tr>
 
-<tr><td>D=1</td><td>hä</td><td>Jä</td><td>3823</td><td>330</td></tr>
-
 <tr><td>D=1</td><td>häh</td><td>Täh</td><td>6139</td><td>3593</td></tr>
 
 <tr><td>D=1</td><td>häh</td><td>täh</td><td>6139</td><td>2447</td></tr>
@@ -6085,6 +6065,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

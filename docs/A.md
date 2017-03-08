@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>A-</td><td>AB-</td><td>12194</td><td>113</td></tr>
-
 <tr><td>D=1</td><td>ADA</td><td>AMA</td><td>573</td><td>534</td></tr>
 
 <tr><td>D=1</td><td>ADA</td><td>AMA</td><td>573</td><td>534</td></tr>
@@ -43,10 +41,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>ALEN</td><td>TALLEN</td><td>28</td><td>42</td></tr>
 
 <tr><td>D=2</td><td>ALPO</td><td>CAMP</td><td>74</td><td>163</td></tr>
-
-<tr><td>D=1</td><td>AM</td><td>PM</td><td>9262</td><td>13835</td></tr>
-
-<tr><td>D=1</td><td>AM</td><td>PM</td><td>9262</td><td>13835</td></tr>
 
 <tr><td>D=2</td><td>AMIS</td><td>AMISOM</td><td>212</td><td>97</td></tr>
 
@@ -1189,6 +1183,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

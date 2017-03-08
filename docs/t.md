@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>t</td><td>ï</td><td>142132</td><td>197</td></tr>
-
-<tr><td>D=1</td><td>t</td><td>öt</td><td>142132</td><td>58</td></tr>
-
 <tr><td>D=2</td><td>t-luokan</td><td>CE-luokan</td><td>1</td><td>97</td></tr>
 
 <tr><td>D=2</td><td>t-luokan</td><td>D1-luokan</td><td>1</td><td>99</td></tr>
@@ -9802,42 +9798,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>työväki</td><td>ay-väki</td><td>1839</td><td>172</td></tr>
 
-<tr><td>D=1</td><td>tä</td><td>ta</td><td>10227</td><td>24457</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>ää</td><td>10227</td><td>2942</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>nä</td><td>10227</td><td>3093</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>tu</td><td>10227</td><td>5109</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>ta</td><td>10227</td><td>24457</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>tu</td><td>10227</td><td>5109</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>ää</td><td>10227</td><td>2942</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>nä</td><td>10227</td><td>3093</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>lä</td><td>10227</td><td>3004</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>vä</td><td>10227</td><td>2025</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>ot</td><td>10227</td><td>1554</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>tö</td><td>10227</td><td>458</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>täm</td><td>10227</td><td>358</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>Ot</td><td>10227</td><td>280</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>'ä</td><td>10227</td><td>118</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>,ä</td><td>10227</td><td>183</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>öä</td><td>10227</td><td>64</td></tr>
-
-<tr><td>D=1</td><td>tä</td><td>’ä</td><td>10227</td><td>12</td></tr>
-
 <tr><td>D=2</td><td>tädeiltä</td><td>tätiltä</td><td>225</td><td>64</td></tr>
 
 <tr><td>D=2</td><td>tädiksi</td><td>outiksi</td><td>364</td><td>62</td></tr>
@@ -11417,6 +11377,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

@@ -18,23 +18,11 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>T</td><td>AT</td><td>110294</td><td>3680</td></tr>
-
 <tr><td>D=2</td><td>TEHY</td><td>TYP</td><td>345</td><td>417</td></tr>
 
 <tr><td>D=2</td><td>TEXAS</td><td>SEAS</td><td>545</td><td>202</td></tr>
 
-<tr><td>D=1</td><td>TI</td><td>TO</td><td>2062</td><td>5048</td></tr>
-
-<tr><td>D=1</td><td>TI</td><td>MT</td><td>2062</td><td>2745</td></tr>
-
 <tr><td>D=2</td><td>TITAN</td><td>TWIN</td><td>313</td><td>550</td></tr>
-
-<tr><td>D=1</td><td>TM</td><td>RM</td><td>9206</td><td>3158</td></tr>
-
-<tr><td>D=1</td><td>TM</td><td>ST</td><td>9206</td><td>3180</td></tr>
-
-<tr><td>D=1</td><td>TM</td><td>RM</td><td>9206</td><td>3158</td></tr>
 
 <tr><td>D=1</td><td>TPS</td><td>OPS</td><td>24871</td><td>4685</td></tr>
 
@@ -43,22 +31,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>TPS</td><td>JPS</td><td>24871</td><td>800</td></tr>
 
 <tr><td>D=1</td><td>TPS</td><td>STPS</td><td>24871</td><td>277</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>MT</td><td>5588</td><td>2745</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>KS</td><td>5588</td><td>2787</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>KT</td><td>5588</td><td>4735</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>KS</td><td>5588</td><td>2787</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>MT</td><td>5588</td><td>2745</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>TH</td><td>5588</td><td>1773</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>JTS</td><td>5588</td><td>524</td></tr>
-
-<tr><td>D=1</td><td>TS</td><td>KTS</td><td>5588</td><td>375</td></tr>
 
 <tr><td>D=1</td><td>TTKK</td><td>TKK</td><td>121</td><td>2583</td></tr>
 
@@ -75,10 +47,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>TTKK</td><td>TKK:n</td><td>121</td><td>5013</td></tr>
 
 <tr><td>D=2</td><td>TTKK</td><td>HKKK</td><td>121</td><td>140</td></tr>
-
-<tr><td>D=1</td><td>TV</td><td>AV</td><td>53835</td><td>3290</td></tr>
-
-<tr><td>D=1</td><td>TV</td><td>ITV</td><td>53835</td><td>328</td></tr>
 
 <tr><td>D=1</td><td>TV-</td><td>AV-</td><td>2762</td><td>247</td></tr>
 
@@ -615,6 +583,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>B</td><td>Bn</td><td>126043</td><td>251</td></tr>
-
 <tr><td>D=1</td><td>BBC</td><td>NBC</td><td>10121</td><td>1724</td></tr>
 
 <tr><td>D=1</td><td>BBC</td><td>CBC</td><td>10121</td><td>1021</td></tr>
@@ -33,8 +31,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>BMW</td><td>BRM</td><td>18206</td><td>134</td></tr>
 
 <tr><td>D=1</td><td>BMW</td><td>BMV</td><td>18206</td><td>69</td></tr>
-
-<tr><td>D=1</td><td>BO</td><td>BF</td><td>636</td><td>1294</td></tr>
 
 <tr><td>D=2</td><td>BONNE</td><td>ANNEE</td><td>78</td><td>77</td></tr>
 
@@ -437,6 +433,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

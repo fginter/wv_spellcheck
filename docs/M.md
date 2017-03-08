@@ -64,20 +64,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>MORE</td><td>OUR</td><td>702</td><td>118</td></tr>
 
-<tr><td>D=1</td><td>MR</td><td>RD</td><td>1519</td><td>2938</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>RA</td><td>1519</td><td>2321</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>ER</td><td>1519</td><td>1181</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>MK</td><td>1519</td><td>3260</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>ER</td><td>1519</td><td>1181</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>RA</td><td>1519</td><td>2321</td></tr>
-
-<tr><td>D=1</td><td>MR</td><td>RW</td><td>1519</td><td>596</td></tr>
-
 <tr><td>D=2</td><td>Maa-</td><td>Maa-ja</td><td>23962</td><td>260</td></tr>
 
 <tr><td>D=2</td><td>Maa-</td><td>Maa-ja</td><td>23962</td><td>260</td></tr>
@@ -1405,6 +1391,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>i</td><td>vi</td><td>129225</td><td>5805</td></tr>
-
 <tr><td>D=2</td><td>i-luokan</td><td>II-luokan</td><td>1</td><td>302</td></tr>
 
 <tr><td>D=2</td><td>i-luokan</td><td>II-luokan</td><td>1</td><td>302</td></tr>
@@ -3433,6 +3431,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

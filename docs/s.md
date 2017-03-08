@@ -18,14 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>s</td><td>ss</td><td>267247</td><td>3721</td></tr>
-
-<tr><td>D=1</td><td>s</td><td>st</td><td>267247</td><td>1477</td></tr>
-
-<tr><td>D=1</td><td>s</td><td>ï</td><td>267247</td><td>197</td></tr>
-
-<tr><td>D=1</td><td>s-</td><td>-e</td><td>447</td><td>457</td></tr>
-
 <tr><td>D=2</td><td>s-bonukset</td><td>boonukset</td><td>13</td><td>104</td></tr>
 
 <tr><td>D=2</td><td>s-etukortilla</td><td>S-Etukortilla</td><td>40</td><td>572</td></tr>
@@ -135,14 +127,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>s-video</td><td>S-Video</td><td>108</td><td>248</td></tr>
 
 <tr><td>D=2</td><td>s-video</td><td>S-Video</td><td>108</td><td>248</td></tr>
-
-<tr><td>D=1</td><td>sa</td><td>si</td><td>12489</td><td>11001</td></tr>
-
-<tr><td>D=1</td><td>sa</td><td>sia</td><td>12489</td><td>2041</td></tr>
-
-<tr><td>D=1</td><td>sa</td><td>sau</td><td>12489</td><td>71</td></tr>
-
-<tr><td>D=1</td><td>sa</td><td>sar</td><td>12489</td><td>56</td></tr>
 
 <tr><td>D=1</td><td>saa</td><td>saaa</td><td>3561597</td><td>438</td></tr>
 
@@ -1933,8 +1917,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>scifiä</td><td>sci-fiä</td><td>3228</td><td>380</td></tr>
 
 <tr><td>D=1</td><td>scifiä</td><td>skifiä</td><td>3228</td><td>71</td></tr>
-
-<tr><td>D=1</td><td>se</td><td>sse</td><td>15045002</td><td>215</td></tr>
 
 <tr><td>D=2</td><td>sedäksi</td><td>"isäksi</td><td>234</td><td>1</td></tr>
 
@@ -5423,8 +5405,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>snadisti</td><td>skidisti</td><td>1952</td><td>448</td></tr>
 
 <tr><td>D=2</td><td>snadisti</td><td>skidisti</td><td>1952</td><td>448</td></tr>
-
-<tr><td>D=1</td><td>so</td><td>sou</td><td>46127</td><td>548</td></tr>
 
 <tr><td>D=2</td><td>softasta</td><td>vistasta</td><td>1464</td><td>162</td></tr>
 
@@ -9033,6 +9013,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

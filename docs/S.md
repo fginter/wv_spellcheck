@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>S</td><td>Sn</td><td>120161</td><td>636</td></tr>
-
 <tr><td>D=2</td><td>SAKU</td><td>SEUL</td><td>1012</td><td>597</td></tr>
 
 <tr><td>D=2</td><td>SAKU</td><td>SUM</td><td>1012</td><td>260</td></tr>
@@ -49,24 +47,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>SIMON</td><td>MONA</td><td>103</td><td>47</td></tr>
 
 <tr><td>D=2</td><td>SIMON</td><td>MONA</td><td>103</td><td>47</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>KS</td><td>5478</td><td>2787</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>KL</td><td>5478</td><td>2756</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>MK</td><td>5478</td><td>3260</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>SL</td><td>5478</td><td>3262</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>KL</td><td>5478</td><td>2756</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>JK</td><td>5478</td><td>5132</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>KS</td><td>5478</td><td>2787</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>LK</td><td>5478</td><td>2203</td></tr>
-
-<tr><td>D=1</td><td>SK</td><td>Sk</td><td>5478</td><td>264</td></tr>
 
 <tr><td>D=2</td><td>SKDL</td><td>IKL</td><td>1264</td><td>591</td></tr>
 
@@ -145,12 +125,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>SUPO-</td><td>SUPO:n</td><td>108</td><td>482</td></tr>
 
 <tr><td>D=2</td><td>SUSANNA</td><td>SUSAN</td><td>292</td><td>69</td></tr>
-
-<tr><td>D=1</td><td>SV</td><td>VU</td><td>1325</td><td>873</td></tr>
-
-<tr><td>D=1</td><td>SV</td><td>VN</td><td>1325</td><td>432</td></tr>
-
-<tr><td>D=1</td><td>SV</td><td>YS</td><td>1325</td><td>236</td></tr>
 
 <tr><td>D=1</td><td>SVUL</td><td>SVL</td><td>235</td><td>445</td></tr>
 
@@ -1033,6 +1007,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

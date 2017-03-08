@@ -20,10 +20,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>p-korean</td><td>P-Korean</td><td>19</td><td>298</td></tr>
 
-<tr><td>D=1</td><td>pH</td><td>ph</td><td>9021</td><td>1531</td></tr>
-
-<tr><td>D=1</td><td>pH</td><td>ph</td><td>9021</td><td>1531</td></tr>
-
 <tr><td>D=2</td><td>paarin</td><td>parín</td><td>298</td><td>588</td></tr>
 
 <tr><td>D=2</td><td>paarin</td><td>parín</td><td>298</td><td>588</td></tr>
@@ -9811,6 +9807,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

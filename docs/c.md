@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>c</td><td>ç</td><td>84564</td><td>104</td></tr>
-
-<tr><td>D=1</td><td>c</td><td>vc</td><td>84564</td><td>64</td></tr>
-
 <tr><td>D=2</td><td>c-alueella</td><td>AB-alueella</td><td>32</td><td>69</td></tr>
 
 <tr><td>D=2</td><td>c-alueella</td><td>ab-alueella</td><td>32</td><td>29</td></tr>
@@ -237,10 +233,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>cayennepippuria</td><td>cayannepippuria</td><td>542</td><td>90</td></tr>
 
 <tr><td>D=1</td><td>cayennepippuria</td><td>cayenne-pippuria</td><td>542</td><td>52</td></tr>
-
-<tr><td>D=1</td><td>cd</td><td>cdr</td><td>5215</td><td>59</td></tr>
-
-<tr><td>D=1</td><td>cd</td><td>cds</td><td>5215</td><td>45</td></tr>
 
 <tr><td>D=1</td><td>cd-</td><td>cd-r</td><td>888</td><td>255</td></tr>
 
@@ -556,16 +548,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>cloudia</td><td>Cloudin</td><td>18</td><td>1196</td></tr>
 
-<tr><td>D=1</td><td>cm</td><td>m.</td><td>238390</td><td>33501</td></tr>
-
-<tr><td>D=1</td><td>cm</td><td>sm</td><td>238390</td><td>1873</td></tr>
-
-<tr><td>D=1</td><td>cm</td><td>m?</td><td>238390</td><td>976</td></tr>
-
-<tr><td>D=1</td><td>cm</td><td>m;</td><td>238390</td><td>174</td></tr>
-
-<tr><td>D=1</td><td>cm</td><td>m!</td><td>238390</td><td>18</td></tr>
-
 <tr><td>D=1</td><td>cocktail</td><td>coctail</td><td>3219</td><td>476</td></tr>
 
 <tr><td>D=1</td><td>cocktail</td><td>coctail</td><td>3219</td><td>476</td></tr>
@@ -687,6 +669,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

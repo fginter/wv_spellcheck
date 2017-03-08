@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>k</td><td>ik</td><td>54955</td><td>427</td></tr>
-
-<tr><td>D=1</td><td>k</td><td>äk</td><td>54955</td><td>84</td></tr>
-
 <tr><td>D=2</td><td>k-citymarket</td><td>K-Citymarket</td><td>14</td><td>367</td></tr>
 
 <tr><td>D=2</td><td>k-citymarket</td><td>K-Citymarket</td><td>14</td><td>367</td></tr>
@@ -109,24 +105,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>k-vitamiinin</td><td>K2-vitamiinin</td><td>5</td><td>264</td></tr>
 
 <tr><td>D=1</td><td>k-vitamiinin</td><td>k2-vitamiinin</td><td>5</td><td>7</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>pa</td><td>13136</td><td>4320</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>va</td><td>13136</td><td>9101</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>ra</td><td>13136</td><td>2069</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>ki</td><td>13136</td><td>2782</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>pa</td><td>13136</td><td>4320</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>ra</td><td>13136</td><td>2069</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>ca</td><td>13136</td><td>1020</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>kat</td><td>13136</td><td>992</td></tr>
-
-<tr><td>D=1</td><td>ka</td><td>kal</td><td>13136</td><td>105</td></tr>
 
 <tr><td>D=2</td><td>kaaduin</td><td>kaatusin</td><td>5912</td><td>118</td></tr>
 
@@ -5756,10 +5734,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>keväänä</td><td>kevännä</td><td>90207</td><td>67</td></tr>
 
-<tr><td>D=1</td><td>kg</td><td>gr</td><td>142120</td><td>2469</td></tr>
-
-<tr><td>D=1</td><td>kg</td><td>kgn</td><td>142120</td><td>74</td></tr>
-
 <tr><td>D=1</td><td>khii</td><td>khi</td><td>66</td><td>68</td></tr>
 
 <tr><td>D=1</td><td>khii</td><td>khi</td><td>66</td><td>68</td></tr>
@@ -8115,16 +8089,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>klöntti</td><td>möntti</td><td>617</td><td>228</td></tr>
 
 <tr><td>D=2</td><td>klöntti</td><td>möntti</td><td>617</td><td>228</td></tr>
-
-<tr><td>D=1</td><td>km</td><td>tkm</td><td>271834</td><td>2697</td></tr>
-
-<tr><td>D=1</td><td>km</td><td>kn</td><td>271834</td><td>727</td></tr>
-
-<tr><td>D=1</td><td>km</td><td>kmh</td><td>271834</td><td>812</td></tr>
-
-<tr><td>D=1</td><td>km</td><td>kms</td><td>271834</td><td>192</td></tr>
-
-<tr><td>D=1</td><td>km</td><td>m!</td><td>271834</td><td>18</td></tr>
 
 <tr><td>D=1</td><td>know-how</td><td>knowhow</td><td>510</td><td>151</td></tr>
 
@@ -15041,6 +15005,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

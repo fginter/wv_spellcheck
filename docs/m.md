@@ -18,14 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>m</td><td>ms</td><td>134496</td><td>4248</td></tr>
-
-<tr><td>D=1</td><td>m</td><td>sm</td><td>134496</td><td>1873</td></tr>
-
-<tr><td>D=1</td><td>m</td><td>³</td><td>134496</td><td>691</td></tr>
-
-<tr><td>D=1</td><td>m</td><td>jm</td><td>134496</td><td>249</td></tr>
-
 <tr><td>D=2</td><td>m-audio</td><td>M-Audio</td><td>5</td><td>114</td></tr>
 
 <tr><td>D=2</td><td>m-kokoa</td><td>xl-kokoa</td><td>14</td><td>14</td></tr>
@@ -3442,14 +3434,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>meuhkaamaan</td><td>keuhkoamaan</td><td>464</td><td>70</td></tr>
 
-<tr><td>D=1</td><td>mh</td><td>vh</td><td>1297</td><td>200</td></tr>
-
-<tr><td>D=1</td><td>mi</td><td>si</td><td>7142</td><td>11001</td></tr>
-
-<tr><td>D=1</td><td>mi</td><td>Si</td><td>7142</td><td>2226</td></tr>
-
-<tr><td>D=1</td><td>mi</td><td>ih</td><td>7142</td><td>1605</td></tr>
-
 <tr><td>D=1</td><td>midit</td><td>medit</td><td>141</td><td>111</td></tr>
 
 <tr><td>D=1</td><td>midit</td><td>modit</td><td>141</td><td>701</td></tr>
@@ -5827,14 +5811,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>miuta</td><td>.minua</td><td>2075</td><td>15</td></tr>
 
 <tr><td>D=2</td><td>miutkin</td><td>mutki</td><td>53</td><td>150</td></tr>
-
-<tr><td>D=1</td><td>mm</td><td>m.</td><td>157384</td><td>33501</td></tr>
-
-<tr><td>D=1</td><td>mm</td><td>sm</td><td>157384</td><td>1873</td></tr>
-
-<tr><td>D=1</td><td>mm</td><td>jm</td><td>157384</td><td>249</td></tr>
-
-<tr><td>D=1</td><td>mm</td><td>m;</td><td>157384</td><td>174</td></tr>
 
 <tr><td>D=2</td><td>moan</td><td>Ravn</td><td>114</td><td>74</td></tr>
 
@@ -8254,12 +8230,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>myötäpäivään</td><td>myötäpäivää</td><td>9966</td><td>111</td></tr>
 
-<tr><td>D=1</td><td>mä</td><td>miä</td><td>674945</td><td>2911</td></tr>
-
-<tr><td>D=1</td><td>mä</td><td>miä</td><td>674945</td><td>2911</td></tr>
-
-<tr><td>D=1</td><td>mä</td><td>mnä</td><td>674945</td><td>112</td></tr>
-
 <tr><td>D=2</td><td>mäen</td><td>mÃ¤en</td><td>14513</td><td>78</td></tr>
 
 <tr><td>D=1</td><td>mäen</td><td>maen</td><td>14513</td><td>33</td></tr>
@@ -8519,6 +8489,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

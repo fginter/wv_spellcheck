@@ -18,18 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>a-</td><td>a2</td><td>858</td><td>187</td></tr>
-
-<tr><td>D=1</td><td>a-</td><td>a+</td><td>858</td><td>30</td></tr>
-
-<tr><td>D=1</td><td>a-</td><td>a1</td><td>858</td><td>188</td></tr>
-
-<tr><td>D=1</td><td>a-</td><td>a2</td><td>858</td><td>187</td></tr>
-
-<tr><td>D=1</td><td>a-</td><td>a-c</td><td>858</td><td>133</td></tr>
-
-<tr><td>D=1</td><td>a-</td><td>-B</td><td>858</td><td>122</td></tr>
-
 <tr><td>D=2</td><td>a-anteeksi</td><td>"anteeksi</td><td>18</td><td>16</td></tr>
 
 <tr><td>D=2</td><td>a-anteeksi</td><td>-Anteeksi</td><td>18</td><td>651</td></tr>
@@ -737,12 +725,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>agnostisismin</td><td>agnostismin</td><td>141</td><td>176</td></tr>
 
 <tr><td>D=2</td><td>agnostisismin</td><td>agnostismin</td><td>141</td><td>176</td></tr>
-
-<tr><td>D=1</td><td>ah</td><td>ahh</td><td>20785</td><td>1119</td></tr>
-
-<tr><td>D=1</td><td>ah</td><td>ahh</td><td>20785</td><td>1119</td></tr>
-
-<tr><td>D=1</td><td>ah</td><td>Ih</td><td>20785</td><td>270</td></tr>
 
 <tr><td>D=1</td><td>ahaa</td><td>Hahaa</td><td>2530</td><td>5233</td></tr>
 
@@ -5697,6 +5679,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

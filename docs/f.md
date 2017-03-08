@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>f</td><td>³</td><td>18594</td><td>691</td></tr>
-
-<tr><td>D=1</td><td>f</td><td>ef</td><td>18594</td><td>224</td></tr>
-
 <tr><td>D=2</td><td>f-cup</td><td>F-Cup</td><td>1</td><td>198</td></tr>
 
 <tr><td>D=2</td><td>f-cup</td><td>F-Cup</td><td>1</td><td>198</td></tr>
@@ -611,6 +607,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

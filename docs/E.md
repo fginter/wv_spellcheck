@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>E</td><td>μ</td><td>64029</td><td>224</td></tr>
-
-<tr><td>D=1</td><td>E-</td><td>E2</td><td>2991</td><td>1195</td></tr>
-
 <tr><td>D=1</td><td>ECO</td><td>ECP</td><td>1268</td><td>222</td></tr>
 
 <tr><td>D=2</td><td>ECON</td><td>ENGL</td><td>220</td><td>87</td></tr>
@@ -80,11 +76,7 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>ENSO</td><td>NAO</td><td>257</td><td>781</td></tr>
 
-<tr><td>D=1</td><td>EP</td><td>Ep</td><td>6244</td><td>272</td></tr>
-
 <tr><td>D=2</td><td>ERNO</td><td>PENA</td><td>78</td><td>61</td></tr>
-
-<tr><td>D=1</td><td>ES</td><td>SL</td><td>4631</td><td>3262</td></tr>
 
 <tr><td>D=1</td><td>ESA</td><td>ESAn</td><td>2018</td><td>1526</td></tr>
 
@@ -95,14 +87,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>ESA</td><td>EIA</td><td>2018</td><td>167</td></tr>
 
 <tr><td>D=2</td><td>ESAN</td><td>ENT</td><td>79</td><td>215</td></tr>
-
-<tr><td>D=1</td><td>EU</td><td>Eu</td><td>115341</td><td>2695</td></tr>
-
-<tr><td>D=1</td><td>EU</td><td>EUn</td><td>115341</td><td>4685</td></tr>
-
-<tr><td>D=1</td><td>EU</td><td>Eu</td><td>115341</td><td>2695</td></tr>
-
-<tr><td>D=1</td><td>EU</td><td>EUH</td><td>115341</td><td>203</td></tr>
 
 <tr><td>D=1</td><td>EU-</td><td>EUn</td><td>9974</td><td>4685</td></tr>
 
@@ -635,6 +619,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

@@ -18,25 +18,11 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>V</td><td>PV</td><td>112105</td><td>4607</td></tr>
-
-<tr><td>D=1</td><td>V</td><td>VA</td><td>112105</td><td>2922</td></tr>
-
-<tr><td>D=1</td><td>V</td><td>VV</td><td>112105</td><td>920</td></tr>
-
-<tr><td>D=1</td><td>V</td><td>VÄ</td><td>112105</td><td>72</td></tr>
-
-<tr><td>D=1</td><td>VR</td><td>PV</td><td>23214</td><td>4607</td></tr>
-
-<tr><td>D=1</td><td>VR</td><td>Vr</td><td>23214</td><td>328</td></tr>
-
 <tr><td>D=1</td><td>VTT</td><td>MTT</td><td>15966</td><td>3809</td></tr>
 
 <tr><td>D=1</td><td>VTT</td><td>TTS</td><td>15966</td><td>2164</td></tr>
 
 <tr><td>D=1</td><td>VTT</td><td>TTK</td><td>15966</td><td>901</td></tr>
-
-<tr><td>D=1</td><td>VW</td><td>Vw</td><td>5621</td><td>205</td></tr>
 
 <tr><td>D=1</td><td>Vaasaa</td><td>vaasaa</td><td>1968</td><td>73</td></tr>
 
@@ -471,6 +457,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

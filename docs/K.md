@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>KA</td><td>VA</td><td>2864</td><td>2922</td></tr>
-
-<tr><td>D=1</td><td>KA</td><td>K.A</td><td>2864</td><td>89</td></tr>
-
 <tr><td>D=1</td><td>KHO</td><td>KKO</td><td>10309</td><td>12324</td></tr>
 
 <tr><td>D=1</td><td>KHO</td><td>KKO</td><td>10309</td><td>12324</td></tr>
@@ -55,12 +51,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>KTP</td><td>LKP</td><td>7417</td><td>311</td></tr>
 
 <tr><td>D=1</td><td>KTP</td><td>KPT</td><td>7417</td><td>241</td></tr>
-
-<tr><td>D=1</td><td>Ka</td><td>Ta</td><td>2259</td><td>1940</td></tr>
-
-<tr><td>D=1</td><td>Ka</td><td>Ta</td><td>2259</td><td>1940</td></tr>
-
-<tr><td>D=1</td><td>Ka</td><td>Kad</td><td>2259</td><td>46</td></tr>
 
 <tr><td>D=2</td><td>Kaapon</td><td>Katlan</td><td>1226</td><td>405</td></tr>
 
@@ -589,6 +579,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

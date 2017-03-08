@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>v-</td><td>-v</td><td>304</td><td>88</td></tr>
-
-<tr><td>D=1</td><td>v-</td><td>v:</td><td>304</td><td>443</td></tr>
-
 <tr><td>D=2</td><td>v-divisioonaan</td><td>IV-divisioonaan</td><td>1</td><td>85</td></tr>
 
 <tr><td>D=2</td><td>v-divisioonaan</td><td>II-divisioonaan</td><td>1</td><td>326</td></tr>
@@ -7067,6 +7063,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

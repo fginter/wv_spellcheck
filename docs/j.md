@@ -18,12 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>j</td><td>rj</td><td>17538</td><td>188</td></tr>
-
-<tr><td>D=1</td><td>j</td><td>ij</td><td>17538</td><td>134</td></tr>
-
-<tr><td>D=1</td><td>j</td><td>е</td><td>17538</td><td>64</td></tr>
-
 <tr><td>D=1</td><td>j-rockia</td><td>jrockia</td><td>193</td><td>86</td></tr>
 
 <tr><td>D=1</td><td>j-rockia</td><td>jrockia</td><td>193</td><td>86</td></tr>
@@ -31,10 +25,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>j-rockin</td><td>jrockin</td><td>121</td><td>59</td></tr>
 
 <tr><td>D=1</td><td>j-rockin</td><td>jrockin</td><td>121</td><td>59</td></tr>
-
-<tr><td>D=1</td><td>ja</td><td>jä</td><td>109102691</td><td>5408</td></tr>
-
-<tr><td>D=1</td><td>ja</td><td>jja</td><td>109102691</td><td>311</td></tr>
 
 <tr><td>D=2</td><td>jaaha</td><td>Jaahas</td><td>1047</td><td>8347</td></tr>
 
@@ -3645,6 +3635,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

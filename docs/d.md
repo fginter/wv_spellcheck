@@ -18,20 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>d</td><td>é</td><td>44076</td><td>748</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>nd</td><td>44076</td><td>296</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>ï</td><td>44076</td><td>197</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>ç</td><td>44076</td><td>104</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>е</td><td>44076</td><td>64</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>ī</td><td>44076</td><td>37</td></tr>
-
-<tr><td>D=1</td><td>d</td><td>ld</td><td>44076</td><td>65</td></tr>
-
 <tr><td>D=2</td><td>d-duuri</td><td>Es-duuri</td><td>8</td><td>171</td></tr>
 
 <tr><td>D=2</td><td>d-duuri</td><td>es-duuri</td><td>8</td><td>1</td></tr>
@@ -671,6 +657,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

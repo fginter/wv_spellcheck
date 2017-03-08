@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>L</td><td>Ln</td><td>66626</td><td>173</td></tr>
-
 <tr><td>D=2</td><td>LADEN</td><td>LENCO</td><td>182</td><td>703</td></tr>
 
 <tr><td>D=1</td><td>LASIK</td><td>LASEK</td><td>843</td><td>63</td></tr>
@@ -679,6 +677,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

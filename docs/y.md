@@ -18,10 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>y</td><td>е</td><td>36705</td><td>64</td></tr>
-
-<tr><td>D=1</td><td>y-</td><td>xy</td><td>215</td><td>197</td></tr>
-
 <tr><td>D=2</td><td>y-juna</td><td>IC-juna</td><td>1</td><td>172</td></tr>
 
 <tr><td>D=1</td><td>y-tunnus</td><td>ly-tunnus</td><td>1832</td><td>23</td></tr>
@@ -2119,6 +2115,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

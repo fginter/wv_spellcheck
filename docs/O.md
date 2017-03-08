@@ -20,16 +20,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>OECD</td><td>ODI</td><td>4156</td><td>89</td></tr>
 
-<tr><td>D=1</td><td>OK</td><td>Ok</td><td>42293</td><td>17178</td></tr>
-
-<tr><td>D=1</td><td>OK</td><td>O.K</td><td>42293</td><td>704</td></tr>
-
-<tr><td>D=1</td><td>OY</td><td>OÜ</td><td>4450</td><td>1173</td></tr>
-
-<tr><td>D=1</td><td>OY</td><td>Oü</td><td>4450</td><td>385</td></tr>
-
-<tr><td>D=1</td><td>OY</td><td>O.Y</td><td>4450</td><td>202</td></tr>
-
 <tr><td>D=1</td><td>Obama</td><td>obama</td><td>22632</td><td>179</td></tr>
 
 <tr><td>D=2</td><td>Obama</td><td>Obama's</td><td>22632</td><td>39</td></tr>
@@ -266,23 +256,11 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>Owenista</td><td>Deanista</td><td>56</td><td>191</td></tr>
 
-<tr><td>D=1</td><td>Oy</td><td>Ky</td><td>474977</td><td>5658</td></tr>
-
-<tr><td>D=1</td><td>Oy</td><td>Ky</td><td>474977</td><td>5658</td></tr>
-
-<tr><td>D=1</td><td>Oy</td><td>Ay</td><td>474977</td><td>1184</td></tr>
-
-<tr><td>D=1</td><td>Oy</td><td>OÜ</td><td>474977</td><td>1173</td></tr>
-
-<tr><td>D=1</td><td>Oy</td><td>Oyn</td><td>474977</td><td>665</td></tr>
-
-<tr><td>D=1</td><td>Oy</td><td>Oü</td><td>474977</td><td>385</td></tr>
-
 </tbody>
 </table>
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

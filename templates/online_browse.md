@@ -2,17 +2,9 @@
 layout: default
 ---
 
-# About
-
-This is a list of {{words|length}} spelling errors automatically extracted from the Turku Internet Parsebank. The underlying data is on the project's GitHub page.
-
-# Browse online
+# Words starting with {{letter}}
 
 In the table below, you can type in any word and you will be shown all the spelling errors that were found. You can also type in a wrongly-spelled word, the search is global.
-
-# Disclaimer
-
-This is not a final production-quality stuff. Mostly something to give you an idea about the data. 
 
 <table id="spelltable" class="display">
 <thead>
@@ -33,6 +25,6 @@ This is not a final production-quality stuff. Mostly something to give you an id
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

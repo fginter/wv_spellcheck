@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>n</td><td>²</td><td>751199</td><td>780</td></tr>
-
 <tr><td>D=2</td><td>n-luokan</td><td>C1-luokan</td><td>15</td><td>94</td></tr>
 
 <tr><td>D=2</td><td>nVidia</td><td>Nvidia</td><td>1465</td><td>4678</td></tr>
@@ -1065,14 +1063,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>neuvosto-venäjän</td><td>Neuvosto-Venäjän</td><td>3</td><td>941</td></tr>
 
 <tr><td>D=2</td><td>neuvostoliittoon</td><td>Neuvostoliitton</td><td>95</td><td>91</td></tr>
-
-<tr><td>D=1</td><td>ni</td><td>nii</td><td>117821</td><td>94724</td></tr>
-
-<tr><td>D=1</td><td>ni</td><td>nii</td><td>117821</td><td>94724</td></tr>
-
-<tr><td>D=1</td><td>ni</td><td>ny</td><td>117821</td><td>36978</td></tr>
-
-<tr><td>D=1</td><td>ni</td><td>nin</td><td>117821</td><td>6496</td></tr>
 
 <tr><td>D=1</td><td>nielaista</td><td>nielasta</td><td>1989</td><td>92</td></tr>
 
@@ -2135,16 +2125,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>nrot</td><td>nro:t</td><td>517</td><td>52</td></tr>
 
 <tr><td>D=2</td><td>nrot</td><td>N:ro</td><td>517</td><td>79</td></tr>
-
-<tr><td>D=1</td><td>ns</td><td>nk</td><td>47448</td><td>2934</td></tr>
-
-<tr><td>D=1</td><td>ns</td><td>ts</td><td>47448</td><td>41437</td></tr>
-
-<tr><td>D=1</td><td>ns</td><td>ts</td><td>47448</td><td>41437</td></tr>
-
-<tr><td>D=1</td><td>ns</td><td>nk</td><td>47448</td><td>2934</td></tr>
-
-<tr><td>D=1</td><td>ns</td><td>n.s</td><td>47448</td><td>258</td></tr>
 
 <tr><td>D=1</td><td>nukahdan</td><td>nukahan</td><td>3367</td><td>111</td></tr>
 
@@ -3675,6 +3655,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

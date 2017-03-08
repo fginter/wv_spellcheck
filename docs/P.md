@@ -18,14 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>P</td><td>Pr</td><td>52966</td><td>391</td></tr>
-
-<tr><td>D=1</td><td>P</td><td>PÄ</td><td>52966</td><td>85</td></tr>
-
-<tr><td>D=1</td><td>PH</td><td>LH</td><td>2665</td><td>1647</td></tr>
-
-<tr><td>D=1</td><td>PH</td><td>Ph</td><td>2665</td><td>821</td></tr>
-
 <tr><td>D=1</td><td>PIA</td><td>ILA</td><td>268</td><td>50</td></tr>
 
 <tr><td>D=2</td><td>PISA</td><td>PIAAC</td><td>1108</td><td>204</td></tr>
@@ -37,26 +29,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=2</td><td>PISA</td><td>ISSP</td><td>1108</td><td>149</td></tr>
 
 <tr><td>D=2</td><td>PISA</td><td>PISA:n</td><td>1108</td><td>89</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>TP</td><td>3879</td><td>3303</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>TP</td><td>3879</td><td>3303</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>PPS</td><td>3879</td><td>1950</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>Pb</td><td>3879</td><td>415</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>PKP</td><td>3879</td><td>82</td></tr>
-
-<tr><td>D=1</td><td>PP</td><td>PPK</td><td>3879</td><td>75</td></tr>
-
-<tr><td>D=1</td><td>PR</td><td>HR</td><td>5525</td><td>7068</td></tr>
-
-<tr><td>D=1</td><td>PR</td><td>HR</td><td>5525</td><td>7068</td></tr>
-
-<tr><td>D=1</td><td>PR</td><td>RN</td><td>5525</td><td>814</td></tr>
-
-<tr><td>D=1</td><td>PR</td><td>FP</td><td>5525</td><td>621</td></tr>
 
 <tr><td>D=1</td><td>Paavali</td><td>paavali</td><td>63558</td><td>147</td></tr>
 
@@ -567,6 +539,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

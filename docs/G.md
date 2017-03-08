@@ -18,14 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>G</td><td>GN</td><td>24702</td><td>560</td></tr>
-
-<tr><td>D=1</td><td>G</td><td>GJ</td><td>24702</td><td>143</td></tr>
-
-<tr><td>D=1</td><td>G</td><td>Ò</td><td>24702</td><td>126</td></tr>
-
-<tr><td>D=1</td><td>G</td><td>Gm</td><td>24702</td><td>112</td></tr>
-
 <tr><td>D=1</td><td>GNOME</td><td>GNOMEn</td><td>484</td><td>129</td></tr>
 
 <tr><td>D=1</td><td>GNOME</td><td>GNOMEn</td><td>484</td><td>129</td></tr>
@@ -255,6 +247,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

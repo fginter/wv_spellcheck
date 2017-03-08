@@ -18,12 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>W</td><td>TW</td><td>60019</td><td>560</td></tr>
-
-<tr><td>D=1</td><td>WC</td><td>Wc</td><td>7187</td><td>489</td></tr>
-
-<tr><td>D=1</td><td>WC</td><td>Wc</td><td>7187</td><td>489</td></tr>
-
 <tr><td>D=1</td><td>WC-</td><td>Wc-</td><td>544</td><td>100</td></tr>
 
 <tr><td>D=1</td><td>WHO</td><td>WMO</td><td>6983</td><td>606</td></tr>
@@ -300,28 +294,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>Wrightit</td><td>Wright:</td><td>68</td><td>220</td></tr>
 
-<tr><td>D=1</td><td>Wu</td><td>Fu</td><td>2700</td><td>3833</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Xu</td><td>2700</td><td>947</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Yu</td><td>2700</td><td>2144</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Hu</td><td>2700</td><td>2118</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Yu</td><td>2700</td><td>2144</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Lu</td><td>2700</td><td>2151</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Xu</td><td>2700</td><td>947</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Pu</td><td>2700</td><td>597</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Qu</td><td>2700</td><td>412</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Bu</td><td>2700</td><td>335</td></tr>
-
-<tr><td>D=1</td><td>Wu</td><td>Gu</td><td>2700</td><td>375</td></tr>
-
 <tr><td>D=2</td><td>Wuori</td><td>Wuoren</td><td>675</td><td>256</td></tr>
 
 </tbody>
@@ -329,6 +301,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

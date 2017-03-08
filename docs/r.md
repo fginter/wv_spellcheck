@@ -18,12 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>r</td><td>ro</td><td>22570</td><td>767</td></tr>
-
-<tr><td>D=1</td><td>r</td><td>rä</td><td>22570</td><td>154</td></tr>
-
-<tr><td>D=1</td><td>r</td><td>ı</td><td>22570</td><td>68</td></tr>
-
 <tr><td>D=2</td><td>r-design</td><td>R-Design</td><td>7</td><td>167</td></tr>
 
 <tr><td>D=2</td><td>r-design</td><td>R-Design</td><td>7</td><td>167</td></tr>
@@ -3369,6 +3363,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

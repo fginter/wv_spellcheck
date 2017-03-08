@@ -18,8 +18,6 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>o</td><td>uo</td><td>92013</td><td>584</td></tr>
-
 <tr><td>D=1</td><td>oat</td><td>ova</td><td>449</td><td>2731</td></tr>
 
 <tr><td>D=1</td><td>oat</td><td>ovt</td><td>449</td><td>336</td></tr>
@@ -370,10 +368,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>odottivat</td><td>oottavat</td><td>14622</td><td>84</td></tr>
 
-<tr><td>D=1</td><td>oh</td><td>Doh</td><td>5797</td><td>309</td></tr>
-
-<tr><td>D=1</td><td>oh</td><td>ouh</td><td>5797</td><td>90</td></tr>
-
 <tr><td>D=2</td><td>oheen</td><td>ohelle</td><td>8159</td><td>2095</td></tr>
 
 <tr><td>D=2</td><td>oheen</td><td>ohelle</td><td>8159</td><td>2095</td></tr>
@@ -497,8 +491,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>ohraisesti</td><td>ohrasesti</td><td>446</td><td>190</td></tr>
 
 <tr><td>D=2</td><td>ohrajauhoja</td><td>gramjauhoja</td><td>266</td><td>28</td></tr>
-
-<tr><td>D=1</td><td>oi</td><td>Woi</td><td>25274</td><td>185</td></tr>
 
 <tr><td>D=1</td><td>oih</td><td>Voih</td><td>2148</td><td>4260</td></tr>
 
@@ -2390,12 +2382,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=2</td><td>olympia</td><td>Olympic</td><td>521</td><td>2624</td></tr>
 
-<tr><td>D=1</td><td>om</td><td>som</td><td>8703</td><td>5388</td></tr>
-
-<tr><td>D=1</td><td>om</td><td>og</td><td>8703</td><td>1628</td></tr>
-
-<tr><td>D=1</td><td>om</td><td>Kom</td><td>8703</td><td>500</td></tr>
-
 <tr><td>D=2</td><td>oma-</td><td>.Oma</td><td>475</td><td>212</td></tr>
 
 <tr><td>D=1</td><td>oma-</td><td>,oma</td><td>475</td><td>318</td></tr>
@@ -2553,22 +2539,6 @@ In the table below, you can type in any word and you will be shown all the spell
 <tr><td>D=1</td><td>omituista</td><td>omistuista</td><td>14959</td><td>113</td></tr>
 
 <tr><td>D=1</td><td>ommella</td><td>omella</td><td>13845</td><td>47</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>pn</td><td>78508417</td><td>806</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>onn</td><td>78508417</td><td>777</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>0n</td><td>78508417</td><td>544</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>o­n</td><td>78508417</td><td>317</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>ona</td><td>78508417</td><td>321</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>opn</td><td>78508417</td><td>275</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>onm</td><td>78508417</td><td>109</td></tr>
-
-<tr><td>D=1</td><td>on</td><td>ón</td><td>78508417</td><td>106</td></tr>
 
 <tr><td>D=1</td><td>ongelma</td><td>onglema</td><td>485519</td><td>448</td></tr>
 
@@ -4534,17 +4504,11 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <tr><td>D=1</td><td>ovikelloa</td><td>ovikelloo</td><td>4884</td><td>90</td></tr>
 
-<tr><td>D=1</td><td>oy</td><td>Ky</td><td>4866</td><td>5658</td></tr>
-
-<tr><td>D=1</td><td>oy</td><td>Ky</td><td>4866</td><td>5658</td></tr>
-
-<tr><td>D=1</td><td>oy</td><td>Ay</td><td>4866</td><td>1184</td></tr>
-
 </tbody>
 </table>
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>

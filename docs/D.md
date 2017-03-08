@@ -18,25 +18,9 @@ In the table below, you can type in any word and you will be shown all the spell
 </thead>
 <tbody>
 
-<tr><td>D=1</td><td>D</td><td>DD</td><td>92880</td><td>3960</td></tr>
-
-<tr><td>D=1</td><td>D</td><td>oD</td><td>92880</td><td>2</td></tr>
-
-<tr><td>D=1</td><td>D</td><td>DD</td><td>92880</td><td>3960</td></tr>
-
-<tr><td>D=1</td><td>D</td><td>Ü</td><td>92880</td><td>534</td></tr>
-
-<tr><td>D=1</td><td>D</td><td>oD</td><td>92880</td><td>2</td></tr>
-
-<tr><td>D=1</td><td>D</td><td>Dd</td><td>92880</td><td>90</td></tr>
-
-<tr><td>D=1</td><td>D-</td><td>D1-</td><td>2773</td><td>142</td></tr>
-
 <tr><td>D=2</td><td>DAVID</td><td>DAILY</td><td>319</td><td>78</td></tr>
 
 <tr><td>D=1</td><td>DDR</td><td>QDR</td><td>2756</td><td>294</td></tr>
-
-<tr><td>D=1</td><td>DE</td><td>DME</td><td>9084</td><td>177</td></tr>
 
 <tr><td>D=1</td><td>DNA</td><td>DNAn</td><td>17937</td><td>399</td></tr>
 
@@ -181,6 +165,6 @@ In the table below, you can type in any word and you will be shown all the spell
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#spelltable').DataTable({ autoFill: true });
+    $('#spelltable').DataTable({ "autoFill": true,  "pageLength": 200, "lengthMenu": [ 50, 200, 500 ] });
 } );
 </script>
