@@ -8,7 +8,7 @@ This is a list of {{words|length}} spelling errors automatically extracted from 
 
 # Browse online
 
-In the table below, you can type in any word and you will be shown all the spelling errors that were found.
+In the table below, you can type in any word and you will be shown all the spelling errors that were found. You can also type in a wrongly-spelled word, the search is global.
 
 # Disclaimer
 
@@ -26,7 +26,7 @@ This is not a final production-quality stuff. Mostly something to give you an id
 </thead>
 <tbody>
 {% for dist,correct,incorrect,count_correct,count_incorrect in words %}
-<tr><td>{{dist}}</td><td>{{correct}}</td><td>{{incorrect}}</td><td>{{count_correct}}</td><td>{{count_incorrect}}</td></tr>
+<tr><td>D={{dist}}</td><td>{{correct}}</td><td>{{incorrect}}</td><td>{{count_correct}}</td><td>{{count_incorrect}}</td></tr>
 {% endfor %}
 </tbody>
 </table>
