@@ -1,8 +1,18 @@
 ---
-layout: base
+layout: default
 ---
 
+# About
+
+This is a list of {{words|length}} spelling errors automatically extracted from the Turku Internet Parsebank. The underlying data is on the project's GitHub page.
+
 # Browse online
+
+In the table below, you can type in any word and you will be shown all the spelling errors that were found.
+
+# Disclaimer
+
+This is not a final production-quality stuff. Mostly something to give you an idea about the data. 
 
 <table id="spelltable" class="display">
 <thead>
