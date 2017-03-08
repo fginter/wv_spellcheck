@@ -15,117 +15,117 @@ In the tables linked below (for each starting letter separately to keep the size
 This is not a final production-quality stuff. Mostly something to give you an idea about the data. Will need further postprocessing of course.
 
 
-[A]()
+[A](A.html)
 
-[B]()
+[B](B.html)
 
-[C]()
+[C](C.html)
 
-[D]()
+[D](D.html)
 
-[E]()
+[E](E.html)
 
-[F]()
+[F](F.html)
 
-[G]()
+[G](G.html)
 
-[H]()
+[H](H.html)
 
-[I]()
+[I](I.html)
 
-[J]()
+[J](J.html)
 
-[K]()
+[K](K.html)
 
-[L]()
+[L](L.html)
 
-[M]()
+[M](M.html)
 
-[N]()
+[N](N.html)
 
-[O]()
+[O](O.html)
 
-[P]()
+[P](P.html)
 
-[Q]()
+[Q](Q.html)
 
-[R]()
+[R](R.html)
 
-[S]()
+[S](S.html)
 
-[T]()
+[T](T.html)
 
-[U]()
+[U](U.html)
 
-[V]()
+[V](V.html)
 
-[W]()
+[W](W.html)
 
-[X]()
+[X](X.html)
 
-[Y]()
+[Y](Y.html)
 
-[Z]()
+[Z](Z.html)
 
-[a]()
+[a](a.html)
 
-[b]()
+[b](b.html)
 
-[c]()
+[c](c.html)
 
-[d]()
+[d](d.html)
 
-[e]()
+[e](e.html)
 
-[f]()
+[f](f.html)
 
-[g]()
+[g](g.html)
 
-[h]()
+[h](h.html)
 
-[i]()
+[i](i.html)
 
-[j]()
+[j](j.html)
 
-[k]()
+[k](k.html)
 
-[l]()
+[l](l.html)
 
-[m]()
+[m](m.html)
 
-[n]()
+[n](n.html)
 
-[o]()
+[o](o.html)
 
-[p]()
+[p](p.html)
 
-[q]()
+[q](q.html)
 
-[r]()
+[r](r.html)
 
-[s]()
+[s](s.html)
 
-[t]()
+[t](t.html)
 
-[u]()
+[u](u.html)
 
-[v]()
+[v](v.html)
 
-[w]()
+[w](w.html)
 
-[x]()
+[x](x.html)
 
-[y]()
+[y](y.html)
 
-[z]()
+[z](z.html)
 
-[Ä]()
+[Ä](Ä.html)
 
-[Å]()
+[Å](Å.html)
 
-[ä]()
+[ä](ä.html)
 
-[å]()
+[å](å.html)
 
-[ö]()
+[ö](ö.html)
 
