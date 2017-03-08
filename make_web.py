@@ -11,5 +11,5 @@ for line in sys.stdin:
     dist=str(int(float(dist)))
     words.append((dist,correct,incorrect,count_correct,count_incorrect))
 
-print(template.render(words=words[:20]))
+print(template.render(words=words))
 
